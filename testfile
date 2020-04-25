@@ -1,0 +1,5 @@
+#!/bin/sh
+
+[ "$1" -eq 7 ] && printf "Henlo" || printf "Goodbai"
+for i in {1..100}; do printf ":D "; done
+exit
